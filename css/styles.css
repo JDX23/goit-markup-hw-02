@@ -116,6 +116,10 @@ button:hover, button:focus {
         letter-spacing: 0.03em;
         color: var(--main-text-color);
 }
+
+.team {
+       background: #F5F4FA;
+}
 .team-member-name {
         font-weight: 500;
         font-size: 16px;
@@ -154,6 +158,7 @@ button:hover, button:focus {
         font-style: normal;
 }
 
+
 /*potfolio formating*/
 .navigation-link-portfolio {
         font-weight: 500;
@@ -171,6 +176,8 @@ button:hover, button:focus {
     color: var(--main-text-color);
 }
 .portfolio-work-button {
+        font-family: 'Roboto';
+        font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: calc(26/16);
