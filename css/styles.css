@@ -43,7 +43,6 @@ button:hover, button:focus {
         letter-spacing: 0.03em;
         color: var(--accent-color);
 }
-
 .navigation-link-main-page {
         font-weight: 500;
         font-size: 14px;
