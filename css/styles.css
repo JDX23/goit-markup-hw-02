@@ -10,6 +10,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-style: normal;
     color: var(--main-text-color);
     font-weight: 400;
     letter-spacing: 0.03em;
@@ -32,7 +33,7 @@ button:hover, button:focus {
     background:var(--accent-color)
 }
 
-/*WebStudio formating*/
+/*WebStudio formating,some things from heder and footer are same for WebStudio and Portfolio*/
 .logo {
     font-family: 'Raleway';
         font-style: normal;
@@ -43,9 +44,21 @@ button:hover, button:focus {
         color: var(--accent-color);
 }
 
-.navigation-link-main-page, .navigation-link, .contact-link {
-        font-family: 'Roboto';
-        font-style: normal;
+.navigation-link-main-page {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: calc(16/15);
+        letter-spacing: 0.02em;
+        color: var(--accent-color);
+}
+.contact-link {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: calc(16/15);
+        letter-spacing: 0.02em;
+        color: var(--secondary-text-color);
+}
+.navigation-link {
         font-weight: 500;
         font-size: 14px;
         line-height: calc(16/15);
@@ -54,8 +67,6 @@ button:hover, button:focus {
 }
 
 .solutions-title {
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 900;
         font-size: 44px;
         line-height: calc(60/44);
@@ -63,11 +74,8 @@ button:hover, button:focus {
         letter-spacing: 0.06em;
         text-transform: uppercase;
         color: var(--white-text-color);
-        background-color: var(--background);
 }
 .solutions-button {
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 700;
         font-size: 16px;
         line-height: calc(30/16);
@@ -88,8 +96,6 @@ button:hover, button:focus {
     display:none
 }
 .features-title {
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 700;
         font-size: 14px;
         line-height: calc(16/14);
@@ -97,8 +103,6 @@ button:hover, button:focus {
         text-transform: uppercase;
 }
 .features-description {
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: calc(24/14);
@@ -106,8 +110,6 @@ button:hover, button:focus {
         color: var(--secondary-text-color);
 }
 .office-title, .team-title {
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 700;
         font-size: 36px;
         line-height: calc(42/36);
@@ -116,8 +118,6 @@ button:hover, button:focus {
         color: var(--main-text-color);
 }
 .team-member-name {
-    font-family: 'Roboto';
-        font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: calc(19/16);
@@ -127,8 +127,6 @@ button:hover, button:focus {
 }
 
 .team-member-job {
-    font-family: 'Roboto';
-        font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: calc(19/16);
@@ -136,48 +134,44 @@ button:hover, button:focus {
         letter-spacing: 0.03em;
         color: var(--main-title-color);
 }
-
 .site-footer {
     background-color: var(--background);
 }
 .footer-adress-link {
-    font-family: 'Roboto';
-        font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: calc(24/14);
         letter-spacing: 0.03em;
         color: var(--white-text-color);
+        font-style: normal;
 }
 
 .footer-contacts {
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: calc(24/14);
         letter-spacing: 0.03em;
         color: var(--footer-contact-color);
+        font-style: normal;
 }
 
-
-
-
 /*potfolio formating*/
+.navigation-link-portfolio {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: calc(16/15);
+        letter-spacing: 0.02em;
+        color: var(--accent-color);
+}
 .navigation-studio,
-.navigation-link-portfolio,
 .navigation-button-contacts {
-    color: var(--main-text-color);
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16/15);
     letter-spacing: 0.02em;
+    color: var(--main-text-color);
 }
 .portfolio-work-button {
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: calc(26/16);
@@ -190,8 +184,6 @@ button:hover, button:focus {
 }
 
 .project-title {
-    font-family: 'Roboto';
-        font-style: normal;
         font-weight: 700;
         font-size: 18px;
         line-height: calc(36/18);
@@ -200,8 +192,6 @@ button:hover, button:focus {
 }
 
 .project-type {
-    font-family: 'Roboto';
-        font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: calc(30/16);
