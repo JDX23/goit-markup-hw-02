@@ -77,6 +77,9 @@ button:hover, button:focus {
         letter-spacing: 0.06em;
         color: var(--white-text-color);
 }
+.solutions-hero {
+    background-color: var(--background);
+}
 
 #request-button {
     background-color:var(--accent-color);
