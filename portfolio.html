@@ -1,136 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" >
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-    <link rel="preconnect" href="https://fonts.googleapis.com" >
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    >
-    <link
-      rel="stylesheet"
-      href="node_modules/modern-normalize/modern-normalize.css"
-    >
-    <link rel="stylesheet" href="css/styles.css" >
-    <title>WebStudio</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+            rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Portfolio</title>
 </head>
 <body>
-  <header>
-    <div class="container header-bar">
-      <a href="./index.html" class="top-logo"> WebStudio</a>
-      <nav>
-        <ul class="navigation-list">
-          <li class="navigation-item">
-            <a href="./index.html" class="navigation-link">Studio</a>
-          </li>
-          <li class="navigation-item">
-            <a href="./portfolio.html" class="navigation-link  current-page">Portfolio</a>
-          </li>
-          <li class="navigation-item">
-            <a href="#" class="navigation-link">Contacts</a>
-          </li>
+    <header>
+        <a href="./index.html" class="logo">WebStudio</a>
+        <nav>
+            <ul>
+                <li><a href="./index.html" class="navigation-studio">Studio</li>
+                <li><a href="./portfolio.html" class="navigation-link-portfolio">Portfolio</li>
+                <li><a href="#" class="navigation-button-contacts">Contacts</li>
+            </ul>
+        </nav>
+        <ul>
+            <li><a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</li>
+            <li><a href="tel:+12127724150" class="contact-link">+1 212-772-4150</li>
         </ul>
-      </nav>
-      <ul class="header-contacts-list">
-        <li class="header-contact-item"><a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li class="header-contact-item"><a class="contact-link" href="tel:+12127724150">+1 212-772-4150</a></li>
-      </ul>
-    </div>
-  </header>
+    </header>
     <main>
-      <section class="section">
-        <div class="container">
-          <ul class="portfolio-buttons-list">
-            <li class="portfolio-work-button"><button type="button" class="portfolio-filter-buttons">All</button></li>
-            <li class="portfolio-work-button"><button type="button" class="portfolio-filter-buttons">Web-sites</button></li>
-            <li class="portfolio-work-button"><button type="button" class="portfolio-filter-buttons">Apps</button></li>
-            <li class="portfolio-work-button"><button type="button" class="portfolio-filter-buttons">Design</button></li>
-            <li class="portfolio-work-button"><button type="button" class="portfolio-filter-buttons">Marketing</button></li>
-          </ul>
-          <ul class="portfolio-image-list">
-            <li class="portfolio-image-item">
-              <img src="./images/project-1.jpg" alt="three people on laptop's screen" width="370">
-              <div class="card-contact">
-              <h3 class="project-title">Technoduck</h3>
-              <p class="project-type">Web-site</p>
-            </div>
-            <li class="portfolio-image-item">
-              <img src="./images/project-2.jpg" alt="two basketball players in action" width="370">
-              <div class="card-contact">
-              <h3 class="project-title">Poster New Orlean vs Golden Star</h3>
-              <p class="project-type">Design</p>
-              </div>
-            </li>
-            <li class="portfolio-image-item">
-              <img src="./images/project-3.jpg" alt="logo" width="370">
-              <div class="card-contact">
-              <h3 class="project-title">Seafood Restaurant</h3>
-              <p class="project-type">Marketing</p>
-              </div>
-            </li>
-            <li class="portfolio-image-item">
-              <img src="./images/project-4.jpg" alt="headphones" width="370">
-              <div class="card-contact">
-              <h3 class="project-title">Project Prime</h3>
-              <p class="project-type">Marketing</p>
-              </div>
-            </li>
-            <li class="portfolio-image-item">
-              <img src="./images/project-5.jpg" alt="two boxes" width="370">
-              <div class="card-contact">
-              <h3 class="project-title">Project Boxes</h3>
-              <p class="project-type">Apps</p>
-              </div>
-            </li>
-            <li class="portfolio-image-item">
-              <img src="./images/project-6.jpg" alt="computer monitor with opened site" width="370">
-              <div class="card-contact">
-              <h3 class="project-title">Inspiration has no Borders</h3>
-              <p class="project-type">Web-site</p>
-              </div>
-            </li>
-            <li class="portfolio-image-item">
-              <img src="./images/project-7.jpg" alt="opened book" width="370">
-              <div class="card-contact">
-              <h3 class="project-title">Limited Edition</h3>
-              <p class="project-type">Design</p>
-            </div>
-            </li>
-            <li class="portfolio-image-item">
-              <img src="./images/project-8.jpg" alt="lable" width="370">
-              <div class="card-contact">
-              <h3 class="project-title">Project LAB</h3>
-              <p class="project-type">Marketing</p>
-            
-              </div>
-            </li>
-            <li class="portfolio-image-item">
-              <img src="./images/project-9.jpg" alt="laptop with opened site" width="370">
-              <div class="card-contact">
-              <h3 class="project-title">Growing Business</h3>
-              <p class="project-type">Apps</p>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
+        <section>
+            <ul>
+                <li><button type="button" class="portfolio-work-button">All</button></li>
+                <li><button type="button" class="portfolio-work-button">Web-sites</button></li>
+                <li><button type="button" class="portfolio-work-button">Apps</button></li>
+                <li><button type="button" class="portfolio-work-button">Design</button></li>
+                <li><button type="button" class="portfolio-work-button">Marketing</button></li>
+            </ul>
+        
+            <ul>
+                <li>
+                    <img src="./images/project-1.jpg" alt="three people on laptop's screen" width="370">
+                    <h3 class="project-title">Technoduck</h3>
+                    <p class="project-type">Web-site</p>
+                </li>
+                <li><img src="./images/project-2.jpg" alt="two basketball players in action" width="370">
+                    <h3 class="project-title">Poster New Orlean vs Golden Star</h3>
+                    <p class="project-type">Design</p>
+                </li>
+                <li><img src="./images/project-3.jpg" alt="logo" width="370">
+                    <h3 class="project-title">Seafood Restaurant</h3>
+                    <p class="project-type"></p>
+                </li>
+                <li><img src="./images/project-4.jpg" alt="headphones" width="370">
+                    <h3 class="project-title">Project Prime</h3>
+                    <p class="project-type">Marketing</p>
+                </li>
+                <li><img src="./images/project-5.jpg" alt="two boxes" width="370">
+                    <h3 class="project-title">Project Boxes</h3>
+                    <p class="project-type">Apps</p>
+                </li>
+                <li><img src="./images/project-6.jpg" alt="computer monitor with opened site" width="370">
+                    <h3 class="project-title">Inspiration has no Borders</h3>
+                    <p class="project-type">Web-site</p>
+                </li>
+                <li><img src="./images/project-7.jpg" alt="opened book" width="370">
+                    <h3 class="project-title">Limited Edition</h3>
+                    <p class="project-type">Design</p>
+                </li>
+                <li><img src="./images/project-8.jpg" alt="lable" width="370">
+                    <h3 class="project-title">Project LAB</h3>
+                    <p class="project-type">Marketing</p>
+                </li>
+                <li><img src="./images/project-9.jpg" alt="laptop with opened site" width="370">
+                    <h3 class="project-title">Growing Business</h3>
+                    <p class="project-type">Apps</p>
+                </li>
+            </ul>
+        </section>
     </main>
+
     <footer class="site-footer">
-      <div class="container footer-section">
-        <a href="./index.html" class="footer-logo">WebStudio</a>
-        <address class="footer-address">
-          <a class="footer-address-link" href="https://goo.gl/maps/oy7EijEYY7rxsLzC9" target="_blank">
-            695 Park Ave, New York, NY 10065, <br> United States
-          </a>
-          <ul>
-            <li><a class="footer-contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="footer-contact" href="tel:+12127724150">+1 212-772-4150</a></li>
-          </ul>
-        </address>
-      </div>
+    <a href="./index.html" class="logo">WebStudio</a>
+    <address>
+        <ul>
+            <li>
+                <a href="https://goo.gl/maps/oy7EijEYY7rxsLzC9" class="footer-adress-link" target="_blank">695 Park Ave, New
+                    York, NY 10065,<br> United
+                    States</a>
+            </li>
+            <li>
+                <a href=mailto:info@devstudio.com class="footer-contacts">info@devstudio.com</a>
+            </li>
+            <li>
+                <a href="tel:+12127724150" class="footer-contacts">+1 212-772-4150</a>
+            </li>
+    
+        </ul>
+    </address>
     </footer>
+    
 </body>
 </html>
